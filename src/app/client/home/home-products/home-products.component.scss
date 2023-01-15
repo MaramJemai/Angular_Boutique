@@ -1,0 +1,27 @@
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    justify-items: stretch;
+    flex-wrap:wrap;
+}
+.img-Prod{
+    border: 2px groove rgba(141, 66, 23, 0.959);
+}
+:host {
+    display:block;
+    margin-top:60px;
+    margin-left:100px;
+    margin-right: 50px;
+    background-color: #1122c09d;
+    }
+.card-deck{
+        width:650px;
+        height:1000px;
+        background-color: #0e32ff73;
+    }
+    
+
+    .img-prod{
+        width:120px;
+        cursor: pointer;
+    }

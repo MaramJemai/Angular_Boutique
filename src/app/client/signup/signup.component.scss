@@ -1,0 +1,31 @@
+
+form{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+label{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    padding: 6px 10px;
+}
+button{
+    background-color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+footer{
+    position: absolute;
+    top: 700px;
+    left: 650px;
+}

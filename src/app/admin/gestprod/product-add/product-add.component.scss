@@ -1,0 +1,25 @@
+
+form{
+    background-color: #1122c09d;
+    display: block;
+    margin: 10px auto;
+    width: 800px;
+    padding: 6px 5px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+label{
+    display: block;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 800px;
+    padding: 6px 10px;
+    color: white;
+}
+button{
+    background-color: rgb(89, 0, 255);
+    font-weight: bold;
+    cursor: pointer;
+}

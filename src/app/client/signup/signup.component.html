@@ -1,0 +1,31 @@
+<form [formGroup]="SignUpForm" (ngSubmit)="signup()">
+    <div class="form-group" >
+      <label >First Name</label>
+      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="First Name" placeholder="Enter Product name" formControlname="firstname" class="form-control form-control-lg">
+      
+    </div>
+    <div class="form-group">
+      <label >Last Name</label>
+      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last Name" formControlname="lastname" class="form-control form-control-lg">
+    </div>
+    <div class="form-group">
+        <label >Email</label>
+      <input type="textarea" class="form-control" id="exampleCheck1"placeholder="name@gmail.com" formControlname="email " class="form-control form-control-lg">
+    </div>
+    <div class="form-group">
+        <label>Type Of Skin</label>
+      <input type="textarea" class="form-control" id="exampleCheck1"placeholder="Description" formControlname="skintype " class="form-control form-control-lg">
+    </div>
+    <button >Save</button>
+    
+</form>
+    
+<br>
+<div [ngStyle]="{'background-image': getUrl()}">
+  <footer>
+    contactez nous 
+    <a href="https://www.facebook.com/CeraVe/"><img src="assets/fb.png" ></a>
+    <a href="https://twitter.com/cerave"><img src="assets/twt.png" ></a>
+    <a href="https://www.instagram.com/cerave/"><img src="assets/insta.png" ></a>
+    
+</footer>
